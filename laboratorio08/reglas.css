@@ -1,9 +1,0 @@
-.contenedor p{
-    color: red;
-}
-.contenedor h2+p{
-    color: purple
-}
-.contenedor h2-p{
-    color: aqua;
-}

@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background: black;
+    text-align: center;
+    padding: 10px;
+}
+header a {
+    text-decoration: none;
+    color: aliceblue;
+    margin: 0 15px;
+}
+header a:hover{
+    background-color: white;
+    color: rgb(8, 9, 9);
+}
+.Introduccion {
+    background: green;
+    color: aliceblue;
+    text-align: center;
+    padding: 40px 20px;
+}
+.Cajas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    margin: 50px 0;
+}
+.contenido {
+    background: rgb(226, 224, 224);
+    color: black;
+    text-align: center;
+    padding: 15px;
+    width: 250px;
+}
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+}
+
